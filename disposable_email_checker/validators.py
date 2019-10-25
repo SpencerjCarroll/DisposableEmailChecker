@@ -13,7 +13,7 @@ from bdea.client import BDEAClient
 # Django moved the location of `get_callable` in Django 2.0. We have kept the original import for
 # backwards compatibility.
 try:
-    from django.core.urlresolvers import get_callable
+    from django.urls import get_callable
 except ImportError:
     from django.urls import get_callable
 
