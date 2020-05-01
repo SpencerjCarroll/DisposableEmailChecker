@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import re
-from six.moves import range
 from django.conf import settings
 from django.utils.encoding import force_text
 from django.core import validators
